@@ -74,7 +74,7 @@ We evaluate the generated crystal structures by:
 - Visualizing their distances histogram of first neighbors for all atoms in the cell.
 - Check if the first neighbors distances respect the reinforced constraints by printing them in tables
 
-To compute neighbors of all atoms in a crystallographic structure using POSCAR file: see ```neighbors.py```
+To compute neighbors of all atoms in a crystallographic structure using POSCAR file as input argument: see ```neighbors.py```
 An example of a POSCAR file is in ```data/```.
 
 In our study, the penalized first neighbors distances are between the atoms ```Pd-Pd'```, ```Ni-Ni'```, ```Pd-Ni``` and ```H-H'```.  
