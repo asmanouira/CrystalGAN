@@ -72,8 +72,11 @@ We evaluate the generated crystal structures by:
 
 - Visualizing the lattice of the crystal [VESTA](http://jp-minerals.org/vesta/en/) using the generated POSCAR files.
 - Visualizing their distances histogram of first neighbors for all atoms in the cell.
-- Check if the first neighbors distances respect the reinforced constraints by printing them in tables (see ```neighbors.py```)
+- Check if the first neighbors distances respect the reinforced constraints by printing them in tables
 
-In our study, the penalized distances are between the atoms ```Pd-Pd'```, ```Ni-Ni'```, ```Pd-Ni``` and ```H-H'```.  
-Those distances fixed to be hopefully between ```d1 = 1.8 Å``` and ```d2 = 3 Å```.
+To compute neighbors of all atoms in a crystallographic structure using POSCAR file: see ```neighbors.py```
+An example of a POSCAR file is in ```data/```.
+
+In our study, the penalized first neighbors distances are between the atoms ```Pd-Pd'```, ```Ni-Ni'```, ```Pd-Ni``` and ```H-H'```.  
+Those distances fixed to be between ```d1 = 1.8 Å``` and ```d2 = 3 Å```.
 ![Image description](/images/generated_POSCAR_neighbors.PNG)
