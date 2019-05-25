@@ -19,7 +19,7 @@ def read_data(data_mat):
 		data : mat file 
 
 	Returns: 
-		data : mat file on dictionary 
+		data : 4D numpy array
 		
 	"""
 	# open POSCAR data
@@ -58,10 +58,10 @@ def compute_max(data):
 	"""
 	Compute the maximum length of features
 	Args:
-		data1: First POSCAR data 
-		data2: Second POSCAR data 
+		data: First POSCAR data 
+
 	Return:
-		max_dim: Maximum length of features in both datasets
+		max_dim: Maximum length of the features in the 4D tensor
 	"""
 
 	abc, H, M1, M2 = extract_features(data)
