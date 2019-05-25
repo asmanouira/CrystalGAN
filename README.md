@@ -57,6 +57,7 @@ In order to prepare the inputs for complexity augmentation , we add two empty pl
 
 # Networks 
 CrystalGAN is composed basically of two cross-domain GANs.
+
 Each encoder and decoder of the generators and the discriminators are composed of fully-connected layers.
 
 ![Image description](/images/step1.png)
@@ -64,6 +65,14 @@ Each encoder and decoder of the generators and the discriminators are composed o
 The output datasets of the first trained network will trained by the second cross-domain GAN
 
 ![Image description](/images/step2.png)
+
+
+To check the architecture of CrystalGAN network, we can use ```tensorboard```:
+```
+tensorboard --logdir=graphs/
+```
+![Image description](/images/tensorboard_graph.png)
+
 
 # Results
 
