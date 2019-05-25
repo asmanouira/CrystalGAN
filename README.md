@@ -24,7 +24,7 @@ git clone https://github.com/asmanouira/CrystalGAN
 ```
 Then:
 ```
-cd CrystalGAN-master/
+cd CrystalGAN/
 ```
 CrystalGAN is based on three steps: 
 
