@@ -62,7 +62,7 @@ Each encoder and decoder of the generators and the discriminators are composed o
 
 ![Image description](/images/step1.png)
 
-The output datasets of the first trained network will trained by the second cross-domain GAN
+The output datasets of the first network (including STEP1 and STEP2) will be trained by the second cross-domain GAN
 
 ![Image description](/images/step2.png)
 
