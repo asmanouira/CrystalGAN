@@ -7,6 +7,7 @@ This repository is a TensorFlow implementation of CrystalGAN : [CrystalGAN: Lear
 
 # Requirements
 - Python 2.7
+- [Jupyter](https://jupyter.org/)
 - [Tensorflow-gpu](https://www.tensorflow.org/)
 - [Scikit-learn](https://scikit-learn.org/stable/)
 - [Tqdm](https://github.com/tqdm/tqdm)
