@@ -43,9 +43,9 @@ jupyter notebook
 
 # Datasets
 
-CrystalGAN takes as inputs two datasets of binary compounds and generates as input ternary compounds.
+CrystalGAN takes as input two datasets of binary compounds and generates as output ternary compounds.
 We choose in this implementation as example ```Pd-H "Palladium - Hydrogen"``` and  ```Ni-H "Nickel - Hydrogen"```,
-The goal is to generate novel ternary compounds of ```Pd-H-Ni "Palladium - Hydrogen - Nickel"```
+The aim is to generate novel ternary compounds of ```Pd-H-Ni "Palladium - Hydrogen - Nickel"```
 
 Samples in our datasets are POSCAR files and converted to 4D tensors as shown below:
 
