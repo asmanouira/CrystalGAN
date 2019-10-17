@@ -51,7 +51,7 @@ Samples in our datasets are POSCAR files and converted to 4D tensors as shown be
 
 ![Image description](/images/POSCAR.png)
 
-In order to prepare the inputs for complexity augmentation , we add two empty placeholders for each dataset:
+In order to prepare the inputs for complexity augmentation , we add an empty placeholder for each dataset:
 
 ![Image description](/images/encodingdata.png)
 
