@@ -55,7 +55,7 @@ In order to prepare the inputs for complexity augmentation , we add an empty pla
 
 ![Image description](/images/encodingdata.png)
 
-
+This procedure described above was implemented in Matlab: [POSCAR2mat.m](https://github.com/asmanouira/Crystal-tools)
 # Networks 
 CrystalGAN is composed basically of two cross-domain GANs.
 
